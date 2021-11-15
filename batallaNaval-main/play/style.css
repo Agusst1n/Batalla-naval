@@ -1,0 +1,111 @@
+/* PALETA DE COLORES
+/* #219ebc */
+/* #023047*/
+/* #ffb703 */
+/* #b7e4c7 */
+
+.grilla {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+
+.grilla > div {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #219ebc;
+  background-color: #023047;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grillaSeleccionado{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+
+.grillaSeleccionado > div {
+  width: 50px;
+  height: 50px;
+  border: 1px solid red;
+  background-color: red;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.grilla2 {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+
+.grilla2 > div {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #219ebc;
+  background-color: #023047;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+body {
+  font-family: "Martel", serif;
+  font-size: 20px;
+  background-color: #b7e4c7;
+  margin: 0%;
+}
+
+header {
+  margin: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 45px;
+  text-align: center;
+  font-family: "Ceviche One", cursive;
+}
+
+h2 {
+  margin: 30px;
+  font-size: 40px;
+  font-family: "Ceviche One", cursive;
+}
+
+.container {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.containerGrilla {
+  display: flex;
+  justify-content: center;
+}
+
+.espaciado {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+button {
+  font-family: "Martel", serif;
+  border: none;
+  background-color: #219ebc;
+  padding: 10px;
+  font-size: large;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Batalla Naval</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Martel:wght@600;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+    <header>
+
+        <h1>Batalla Naval</h1>
+    </header>
+
+    <div class="container">
+        <p>Selecciona tu nivel:</p>
+    </div>
+    <div class="container">
+        <button id="botonModoFacil">Fácil</button>
+        <button id="botonModoNormal">Normal</button>
+        <button id="botonModoDificil">Difícil</button>
+    </div>
+    <div class="row">
+        <div class="containerGrilla">
+            <div class="grilla"></div>
+            <div class="grilla2"></div>
+        </div>
+    </div>
+
+    <h2>Horizontal</h2>
+
+    <div class="container espaciado">
+        <button id="portaaviones" data-posiciones="5" data-direccion="Horizontal">Portaaviones 🚢</button>
+        <button id="buque" data-posiciones="4" data-direccion="Horizontal">Buque 🛳</button>
+        <button id="submarino" data-posiciones="3" data-direccion="Horizontal">Submarino ⛴</button>
+        <button id="crucero" data-posiciones="2" data-direccion="Horizontal">Crucero 🛥</button>
+        <button id="lancha" data-posiciones="1" data-direccion="Horizontal">Lancha 🚤</button>
+    </div>
+
+    <h2>Vertical</h2>
+
+    <div class="container espaciado">
+        <button id="portaavionesVertical" data-posiciones="5" data-direccion="Vertical">Portaaviones 🚢</button>
+        <button id="buqueVertical" data-posiciones="4" data-direccion="Vertical">Buque 🛳</button>
+        <button id="submarinoVertical" data-posiciones="3" data-direccion="Vertical">Submarino ⛴</button>
+        <button id="cruceroVertical" data-posiciones="2" data-direccion="Vertical">Crucero 🛥</button>
+        <button id="lanchaVertical" data-posiciones="1" data-direccion="Vertical">Lancha 🚤</button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

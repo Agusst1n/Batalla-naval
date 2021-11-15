@@ -1,0 +1,44 @@
+/* PALETA DE COLORES
+/* #219ebc */
+/* #023047*/
+/* #ffb703 */
+/* #b7e4c7 */
+
+body {
+  font-family: "Martel", serif;
+  font-size: 20px;
+  background-color: #b7e4c7;
+  margin: 0%;
+}
+
+header {
+  margin: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 45px;
+  text-align: center;
+  font-family: "Ceviche One", cursive;
+}
+
+h2 {
+  font-size: 40px;
+  font-family: "Ceviche One", cursive;
+}
+
+.container {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  font-family: "Martel", serif;
+  border: none;
+  background-color: #219ebc;
+  padding: 10px;
+  font-size: large;
+} 
